@@ -1,0 +1,28 @@
+/* background color: 	#f6f6fe */
+/* color:	#494c5f */
+/* smallcolor: 	#b3b5c6*/
+/* hsl(236, 72%, 79%) to hsl(237, 63%, 64%) */
+/* for the hover effect */
+/*   background: rgb(105, 111, 221);
+  background: linear-gradient(
+    32deg,
+    rgba(105, 111, 221, 1) 74%,
+    rgba(163, 168, 240, 1) 100%
+  ); */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  /* background-image: linear-gradient(#a3a8f0, to #696fdd); */
+  background-color: #f7f7fe;
+
+  width: 100%;
+  height: 100vh;
+}
+.beforeeffect {
+  border: 2px solid yellow;
+}
+.aftereffect {
+  border: 2px solid blue;
+}
