@@ -12,25 +12,32 @@ let allPrices = [
     yearly: 399.99,
   },
 ];
+allPrices.forEach((price, index) => {
+  document.getElementById("price" + (index + 1)).innerText = price.monthly;
+});
 
 function togglepriceplans(event) {
-  let element = null;
-  for (let index = 0; index < allPrices.length; index++) {
-    element = allPrices[index].monthly;
-  }
-  console.log(element);
-  for (let index = 0; index < allPrices.length; index++) {
-    let elements = allPrices[index].yearly;
-  }
   //   the toggle effect
   let isChecked = event.currentTarget.checked;
-  let toggledClass = document.getElementById("beforeeffect");
-  let toggledClass1 = document.getElementById("beforeeffect1");
-  let toggledClass2 = document.getElementById("beforeeffect2");
+  //   let toggledClass = document.getElementById("beforeeffect");
+  //   let toggledClass1 = document.getElementById("beforeeffect1");
+  //   let toggledClass2 = document.getElementById("beforeeffect2");
 
   if (isChecked) {
-    toggledClass.classList.add("aftereffect");
+    allPrices.forEach((price, index) => {
+      document.getElementById("price" + (index + 1)).innerText = price.yearly;
+      document
+        .getElementById("price" + (index + 1))
+        .classList.add("aftereffect");
+    });
+    //     toggledClass.classList.add("aftereffect");
   } else {
-    toggledClass.classList.remove("aftereffect");
+    allPrices.forEach((price, index) => {
+      document.getElementById("price" + (index + 1)).innerText = price.monthly;
+      document
+        .getElementById("price" + (index + 1))
+        .classList.add("aftereffect");
+    });
+    //     toggledClass.classList.remove("aftereffect");
   }
 }
