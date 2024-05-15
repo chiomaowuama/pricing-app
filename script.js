@@ -12,16 +12,17 @@ let allPrices = [
     yearly: 399.99,
   },
 ];
-for (let index = 0; index < allPrices.length; index++) {
-  let element = allPrices[index].monthly;
-  console.log(element);
-}
-for (let index = 0; index < allPrices.length; index++) {
-  let elements = allPrices[index].yearly;
-  console.log(elements);
-}
 
 function togglepriceplans(event) {
+  let element = null;
+  for (let index = 0; index < allPrices.length; index++) {
+    element = allPrices[index].monthly;
+  }
+  console.log(element);
+  for (let index = 0; index < allPrices.length; index++) {
+    let elements = allPrices[index].yearly;
+  }
+  //   the toggle effect
   let isChecked = event.currentTarget.checked;
   let toggledClass = document.getElementById("beforeeffect");
   let toggledClass1 = document.getElementById("beforeeffect1");
@@ -29,9 +30,7 @@ function togglepriceplans(event) {
 
   if (isChecked) {
     toggledClass.classList.add("aftereffect");
-    // toggledClass.innerText element;
   } else {
     toggledClass.classList.remove("aftereffect");
   }
-  //   console.log(toggledClass);
 }
