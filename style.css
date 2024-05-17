@@ -33,6 +33,13 @@ body {
   width: 350px;
   height: 558px;
 }
+.second-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 353px;
+  height: 304px;
+}
 header {
   display: flex;
   justify-content: center;
