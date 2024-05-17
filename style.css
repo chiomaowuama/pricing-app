@@ -9,6 +9,7 @@
     rgba(105, 111, 221, 1) 74%,
     rgba(163, 168, 240, 1) 100%
   ); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -25,4 +26,8 @@ body {
 }
 .aftereffect {
   border: 2px solid blue;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) and (orientation: portrait) {
 }
