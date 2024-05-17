@@ -30,10 +30,12 @@ header {
   align-items: center;
   flex-direction: column;
   color: #6e728e;
-  padding: 2% 0;
+  padding: 4% 0;
+  gap: 2rem;
 }
 .price-tittle {
   color: #6e728e;
+  font-family: "Montserrat";
 }
 .the-toggle {
   display: flex;
@@ -43,14 +45,17 @@ header {
   font-size: 15px;
 }
 .the-toggle p {
-  color: #6e728e;
+  color: #878993;
+  font-weight: 800;
+  font-size: 15px;
+  font-family: "Montserrat";
 }
 /* the switch */
 .switch {
   position: relative;
   display: inline-block;
   width: 50px;
-  height: 24px;
+  height: 29px;
 }
 
 .switch input {
@@ -107,7 +112,6 @@ input:checked + .slider:before {
 }
 /* section */
 section {
-  border: 2px solid green;
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -120,21 +124,19 @@ section {
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  padding: 3% 0;
+  padding: 5% 0;
 }
 .pricing-div h1 {
-  border: 2px solid green;
   font-size: 70px;
   font-family: "Montserrat";
 }
 .pricing-div p {
-  border: 2px solid yellow;
+  padding-top: 5%;
   font-size: 16px;
   font-weight: 700;
   font-family: "Montserrat";
 }
 .all-list ul li {
-  border: 2px solid red;
   list-style: none;
   text-align: center;
   padding: 3% 0;
@@ -154,8 +156,7 @@ section {
   border-bottom: 1px solid #4a4d60;
 }
 .alllist-buttons {
-  border: 2px solid green;
-  margin: 5% 0;
+  margin: 8% 0;
 }
 .alllist-buttons button {
   border: none;
@@ -181,8 +182,35 @@ section {
   border: 2px solid black;
   color: white;
 }
+/* the blue */
+.professional {
+  border: 2px solid green;
+  margin-top: 5%;
+}
+.blue-whites ul li {
+  list-style: none;
+  text-align: center;
+  padding: 3% 0;
+  border: 1px solid white;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  font-size: 15px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: white;
+}
+.blue-whites ul li:nth-child(3) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.461);
+}
+.blue-whites {
+  color: white;
+}
 .pricing-div {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 }
