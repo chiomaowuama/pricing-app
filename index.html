@@ -12,17 +12,67 @@
     />
   </head>
   <body>
-    <h1>hello</h1>
+    <header>
+      <h1>Our Pricing</h1>
+      <div>
+        <p>Annually</p>
+        <label class="switch">
+          <input type="checkbox" onchange="togglepriceplans(event)" />
+          <span class="slider round"></span>
+        </label>
+        <p>Monthly</p>
+      </div>
+    </header>
+    <section class="box-pricing">
+      <div>
+        <div>
+          <p>Basic</p>
+          <h1 id="price1" class="beforeeffect"></h1>
+        </div>
+        <div>
+          <ul>
+            <li>500 BG Storage</li>
+            <li>2 User Allowed</li>
+            <li>Send up to 3 GB</li>
+          </ul>
+          <button>LEARN MORE</button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>Professional</p>
+          <h1 id="price2" class="beforeeffect"></h1>
+        </div>
+        <div>
+          <ul>
+            <li>1 TB Storage</li>
+            <li>5 User Allowed</li>
+            <li>Send up to 10 GB</li>
+          </ul>
+          <button>LEARN MORE</button>
+        </div>
+      </div>
+      <div>
+        <div>
+          <p>Master</p>
+          <h1 id="price3" class="beforeeffect"></h1>
+        </div>
+        <div>
+          <ul>
+            <li>2 TB Storage</li>
+            <li>10 User Allowed</li>
+            <li>Send up to 20 GB</li>
+          </ul>
+          <button>LEARN MORE</button>
+        </div>
+      </div>
+    </section>
 
-    <label class="switch">
-      <input type="checkbox" onchange="togglepriceplans(event)" />
-      <span class="slider round"></span>
-    </label>
-    <div>
+    <!-- <div>
       <h1 id="price1" class="beforeeffect"></h1>
       <h1 id="price2" class="beforeeffect"></h1>
       <h1 id="price3" class="beforeeffect"></h1>
-    </div>
+    </div> -->
 
     <script src="script.js"></script>
   </body>
