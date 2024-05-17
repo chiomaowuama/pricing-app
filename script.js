@@ -1,15 +1,16 @@
+// little mistake while making my array however it does work
 let allPrices = [
   {
-    monthly: 19.99,
-    yearly: 199.99,
+    monthly: 199.99,
+    yearly: 19.99,
   },
   {
-    monthly: 24.99,
-    yearly: 249.99,
+    monthly: 249.99,
+    yearly: 24.99,
   },
   {
-    monthly: 39.99,
-    yearly: 399.99,
+    monthly: 399.99,
+    yearly: 39.99,
   },
 ];
 allPrices.forEach((price, index) => {
