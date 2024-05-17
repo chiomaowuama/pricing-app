@@ -1,14 +1,3 @@
-/* background color: 	#f6f6fe */
-/* color:	#494c5f */
-/* smallcolor: 	#b3b5c6*/
-/* hsl(236, 72%, 79%) to hsl(237, 63%, 64%) */
-/* for the hover effect */
-/*   background: rgb(105, 111, 221);
-  background: linear-gradient(
-    32deg,
-    rgba(105, 111, 221, 1) 74%,
-    rgba(163, 168, 240, 1) 100%
-  ); */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0%;
@@ -410,8 +399,6 @@ section {
   }
   .white {
     width: 100%;
-    margin-top: 2%;
-    margin-bottom: -2%;
     background-color: white;
     color: #4a4d60;
     border-radius: 12px;

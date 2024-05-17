@@ -20,9 +20,6 @@ allPrices.forEach((price, index) => {
 function togglepriceplans(event) {
   //   the toggle effect
   let isChecked = event.currentTarget.checked;
-  //   let toggledClass = document.getElementById("beforeeffect");
-  //   let toggledClass1 = document.getElementById("beforeeffect1");
-  //   let toggledClass2 = document.getElementById("beforeeffect2");
 
   if (isChecked) {
     allPrices.forEach((price, index) => {
@@ -31,7 +28,6 @@ function togglepriceplans(event) {
         .getElementById("price" + (index + 1))
         .classList.add("aftereffect");
     });
-    //     toggledClass.classList.add("aftereffect");
   } else {
     allPrices.forEach((price, index) => {
       document.getElementById("price" + (index + 1)).innerText = price.monthly;
@@ -39,6 +35,5 @@ function togglepriceplans(event) {
         .getElementById("price" + (index + 1))
         .classList.add("aftereffect");
     });
-    //     toggledClass.classList.remove("aftereffect");
   }
 }
