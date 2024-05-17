@@ -21,12 +21,21 @@ body {
   width: 100%;
   height: 100vh;
 }
-.beforeeffect {
+/* header */
+header {
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #6e728e;
+}
+/* .beforeeffect {
   border: 2px solid yellow;
 }
 .aftereffect {
   border: 2px solid blue;
-}
+} */
 /* the switch */
 .switch {
   position: relative;
@@ -48,7 +57,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #6d72de;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
