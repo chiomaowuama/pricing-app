@@ -29,6 +29,15 @@ header {
   align-items: center;
   flex-direction: column;
   color: #6e728e;
+  padding: 2% 0;
+}
+.the-toggle {
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  font-size: 15px;
 }
 /* .beforeeffect {
   border: 2px solid yellow;
@@ -40,8 +49,8 @@ header {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 50px;
+  height: 24px;
 }
 
 .switch input {
@@ -65,8 +74,8 @@ header {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 18px;
+  width: 18px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -90,7 +99,7 @@ input:checked + .slider:before {
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+  border-radius: 20px;
 }
 
 .slider.round:before {
